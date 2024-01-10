@@ -1,6 +1,6 @@
 
 # Data Analysis With Python - Netflix
-## An MOOC offered by the University of Helsinki
+## Data obtained from kaggle.com
 
 <p>Topics covered:
 
