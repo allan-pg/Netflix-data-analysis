@@ -1,8 +1,12 @@
-# Netflix-data-analysis
-Netflix Data Analysis
-This a brief detail of data analysis in python and its libraries 
-Numpy
-Pandas
-and its visualization in seaborn and matplotlib
+
+# Data Analysis With Python - Netflix
+## An MOOC offered by the University of Helsinki
+
+<p>Topics covered:
+
+* Programming in Python 
+* Numpy
+* Pandas
+* Matplotlib
 
 
