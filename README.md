@@ -1,6 +1,6 @@
 
 # Data Analysis With Python - Netflix
-** Data obtained from kaggle.com **
+**Data obtained from kaggle.com**
 The dataset is also included in the repository. 
 
 <p>Topics covered:
