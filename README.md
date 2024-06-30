@@ -1,4 +1,7 @@
 # Data Analysis With Python - Netflix
+![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/d1717927-9853-4055-9eb8-7713e7c288a8)
+
+
 **Data obtained from kaggle.com**
 The dataset is also included in the repository. 
 
