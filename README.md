@@ -11,6 +11,7 @@ The dataset is also included in the repository.
 * Numpy
 * Pandas
 * Matplotlib
+* seaborn
 
 ## Introduction
 I imported all the necessary libraries in pyton i will need for this project: 
@@ -113,11 +114,15 @@ plt.axis('off')
 plt.savefig('country.png')
 plt.show()
 ```
+![Capture](https://github.com/user-attachments/assets/498de54c-8f73-4799-ae10-76cdfad6fb6f)  
+
 - 9.0 use a pie chart to visualize the no. of shows per rating
 ```
 data['rating'].value_counts().plot.pie(autopct='%1.1f%%',shadow=True,figsize=(10,8))
 plt.show()
 ```
+![Capture](https://github.com/user-attachments/assets/90fb6b08-267e-49ac-9d5c-40182739e13d)  
+
 - 10.0 relationship between type and rating
 ```
 plt.figure(figsize=(10,8))
@@ -125,3 +130,5 @@ sns.countplot(x='rating',hue='type',data=data)
 plt.title('Relation between Type and Rating')
 plt.show()
 ```
+![Capture](https://github.com/user-attachments/assets/9c1d319a-c911-4387-8d09-f47c0a825b2d)
+
