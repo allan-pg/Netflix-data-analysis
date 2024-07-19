@@ -108,16 +108,23 @@ data[no_of_show_by_year].plot(kind = line)
 ```
 sns.countplot(data['type'])
 ```
+![Capture](https://github.com/user-attachments/assets/258b4104-6502-4178-a921-6f182207d1a0)  
+
 - 6.0 show all movies released in 2000
 ```
 filt = (data['type'] == 'Movie') & (data['release_year'] == 2000)
 data[filt]
 ```
+![Capture](https://github.com/user-attachments/assets/f885fcc6-af90-42c4-93c2-007f667d1f0c)  
+
 - 7.0 show title of only TV shows released in the united states only
 ```
 filt = (data['type'] == 'TV Show') & (data['country'] == 'United States')
-data[filt]['title']
+data[filt]['title']  
+![Capture](https://github.com/user-attachments/assets/5fcad452-882e-4fb2-a03d-ddc3af26de38)
+
 ```
+
 - 8.0 use a word cloud to show case the countries where movies are produced
 ```
 from wordcloud import WordCloud
