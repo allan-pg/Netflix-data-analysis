@@ -12,39 +12,55 @@ The dataset is also included in the repository.
 * Pandas
 * Matplotlib
 * seaborn
+  
+## Table of Contents
+1.1 import libraries  
+1.2 load your csv file  
+1.3 see a sample of your dataset  
+1.4 find number of rows and columns  
+1.5 number of values in your dataframe  
+1.6 show the columns in the dataframe  
+1.7 inspect column datatypes
+1.8 find and delete duplicates
+1.9 find null values 
+2.0 visualize null values using a heat map  
+2.1 Practise data analysis questions
 
 ## Introduction
-I imported all the necessary libraries in pyton i will need for this project: 
+Data analysis is a process for obtaining raw data, and subsequently converting it into information useful for decision-making by users. 
+lets dive in:  
+
+1.1 I imported all the necessary libraries in pyton i will need for this project: 
 
 ![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/da69aedd-d9b4-435d-be56-4e9a569563d5)
 
-load your csv file from kaggle to your jupyter notebook 
+1.2 load your csv file from kaggle to your jupyter notebook 
 syntax
 > df = pd.read_csv('data.csv')
 
 >  ![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/655255c3-a2ef-422c-9476-16239caaf19d)
 
-To see your csv dataframe the first 5 rows and the last 5 rows on your notebook  
+1.3 To see your csv dataframe the first 5 rows and the last 5 rows on your notebook  
 
 > ![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/10d16344-f5af-427d-aaba-86ea816d6130)
 
-- The df. shape method provides information about the number of rows and columns in a DataFrame quickly and easily.
+1.4 The df. shape method provides information about the number of rows and columns in a DataFrame quickly and easily.
  ```
 data.shape
 ```
-- data.size shows total no. of values in the dataset
+1.5 data.size shows total no. of values in the dataset
 ```
 data.size
 ```
-- data.columns  show the columns in the dataframe in form of a list
+1.6 data.columns  show the columns in the dataframe in form of a list
 ```
 data.columns
 ```
-- data.dtypes show the data types in each colmns
+1.7 data.dtypes show the data types in each colmns
 ```
 data.dtypes
 ```
-> are there any duplicates in the record if yes remove the duplicate  
+1.8 are there any duplicates in the record if yes remove the duplicate  
 > find the duplicated columns using
 ```
 data[data.duplicated()]
@@ -53,18 +69,18 @@ data[data.duplicated()]
 ```
 data.drop_duplicates(inplace=True)
 ```
-- to show th sum of all null values in a column
+1.9 to show th sum of all null values in a column
 ```
 data.isnull().sum()
 ```
-> Visualize the null values in a heat map
+2.0 Visualize the null values in a heat map
 - Is there any null values in the data set? show with a heatmap
 ```
 sns.heatmap(data.isnull())
 plt.show()
  #from the heatmap analysis there are no null values
 ```
-### Analyse your data now  
+### 2.1 Analyse your data now  
 Questions  
 - 1.0 for 'House of Cards' what is the show id and who is the director?
 ```
