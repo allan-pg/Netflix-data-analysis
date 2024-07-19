@@ -4,7 +4,7 @@
 
 
 ## Table of Contents
-1.0 Introduction
+1.0 Introduction  
 1.1 import libraries  
 1.2 load your csv file  
 1.3 see a sample of your dataset  
