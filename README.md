@@ -18,7 +18,7 @@
 2.1 Practise data analysis questions
 
 ## Introduction
-Data analysis is a process for obtaining raw data, and subsequently converting it into information useful for decision-making by users. 
+Data analysis is a process for obtaining raw data, and subsequently converting it into information useful for decision-making by users.   
 lets dive in:  
 **Data obtained from kaggle.com**
 The dataset is also included in the repository. 
