@@ -2,18 +2,9 @@
 ![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/d1717927-9853-4055-9eb8-7713e7c288a8)
 
 
-**Data obtained from kaggle.com**
-The dataset is also included in the repository. 
 
-<p>Topics covered:
-
-* Programming in Python 
-* Numpy
-* Pandas
-* Matplotlib
-* seaborn
-  
 ## Table of Contents
+1.0 Introduction
 1.1 import libraries  
 1.2 load your csv file  
 1.3 see a sample of your dataset  
@@ -29,6 +20,17 @@ The dataset is also included in the repository.
 ## Introduction
 Data analysis is a process for obtaining raw data, and subsequently converting it into information useful for decision-making by users. 
 lets dive in:  
+**Data obtained from kaggle.com**
+The dataset is also included in the repository. 
+
+<p>Topics covered:
+
+* Programming in Python 
+* Numpy
+* Pandas
+* Matplotlib
+* seaborn
+  
 
 1.1 I imported all the necessary libraries in pyton i will need for this project: 
 
