@@ -20,10 +20,10 @@ The dataset is also included in the repository.
 1.4 find number of rows and columns  
 1.5 number of values in your dataframe  
 1.6 show the columns in the dataframe  
-1.7 inspect column datatypes
-1.8 find and delete duplicates
-1.9 find null values 
-2.0 visualize null values using a heat map  
+1.7 inspect column datatypes  
+1.8 find and delete duplicates  
+1.9 find null values   
+2.0 visualize null values using a heat map    
 2.1 Practise data analysis questions
 
 ## Introduction
