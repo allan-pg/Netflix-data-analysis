@@ -27,19 +27,19 @@ To see your csv dataframe the first 5 rows and the last 5 rows on your notebook
 
 > ![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/10d16344-f5af-427d-aaba-86ea816d6130)
 
-The df. shape method provides information about the number of rows and columns in a DataFrame quickly and easily.
+- The df. shape method provides information about the number of rows and columns in a DataFrame quickly and easily.
  ```
 data.shape
 ```
-data.size shows total no. of values in the dataset
+- data.size shows total no. of values in the dataset
 ```
 data.size
 ```
-data.columns  show the columns in the dataframe in form of a list
+- data.columns  show the columns in the dataframe in form of a list
 ```
 data.columns
 ```
-data.dtypes show the data types in each colmns
+- data.dtypes show the data types in each colmns
 ```
 data.dtypes
 ```
@@ -52,7 +52,7 @@ data[data.duplicated()]
 ```
 data.drop_duplicates(inplace=True)
 ```
-> to show th sum of all null values in a column
+- to show th sum of all null values in a column
 ```
 data.isnull().sum()
 ```
@@ -64,42 +64,42 @@ plt.show()
  #from the heatmap analysis there are no null values
 ```
 ### Analyse your data now  
-Questions
-1.0 for 'House of Cards' what is the show id and who is the director?
+Questions  
+- 1.0 for 'House of Cards' what is the show id and who is the director?
 ```
 filt = (data.title == 'House of Cards')
 data[filt]['show id']['director']
 ```
-2.0 to show a particular record usind isin()
+- 2.0 to show a particular record usind isin()
 ```
 data[data['title'].isin(['House of Cards'])]
 ```
-3.0 show the same record using str.contains()
+- 3.0 show the same record using str.contains()
 ```
 data[data['title'].str.contains('House of Cards')]
 ```
-4.0 In whic year was the highest number of the tv shows and movies released? show with a line graph
+- 4.0 In whic year was the highest number of the tv shows and movies released? show with a line graph
 ```
 #incase the release year was an object
 pd.to_datetime(data['release_year'])
 no_of_show_by_year = data.release_year.value_counts()
 data[no_of_show_by_year].plot(kind = line)
 ```
-5.0 Show the number of shows using a bar chart
+- 5.0 Show the number of shows using a bar chart
 ```
 sns.countplot(data['type'])
 ```
-6.0 show all movies released in 2000
+- 6.0 show all movies released in 2000
 ```
 filt = (data['type'] == 'Movie') & (data['release_year'] == 2000)
 data[filt]
 ```
-7.0 show title of only TV shows released in the united states only
+- 7.0 show title of only TV shows released in the united states only
 ```
 filt = (data['type'] == 'TV Show') & (data['country'] == 'United States')
 data[filt]['title']
 ```
-8.0 use a word cloud to show case the countries where movies are produced
+- 8.0 use a word cloud to show case the countries where movies are produced
 ```
 from wordcloud import WordCloud
 plt.subplots(figsize=(25,15))
@@ -113,12 +113,12 @@ plt.axis('off')
 plt.savefig('country.png')
 plt.show()
 ```
-9.0 use a pie chart to visualize the no. of shows per rating
+- 9.0 use a pie chart to visualize the no. of shows per rating
 ```
 data['rating'].value_counts().plot.pie(autopct='%1.1f%%',shadow=True,figsize=(10,8))
 plt.show()
 ```
-10.0 relationship between type and rating
+- 10.0 relationship between type and rating
 ```
 plt.figure(figsize=(10,8))
 sns.countplot(x='rating',hue='type',data=data)
