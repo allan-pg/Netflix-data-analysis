@@ -104,6 +104,8 @@ pd.to_datetime(data['release_year'])
 no_of_show_by_year = data.release_year.value_counts()
 data[no_of_show_by_year].plot(kind = line)
 ```
+![Capture](https://github.com/user-attachments/assets/fdccd95a-d98e-47cb-adb2-19a9e8b9bb85)  
+
 - 5.0 Show the number of shows using a bar chart
 ```
 sns.countplot(data['type'])
@@ -120,10 +122,9 @@ data[filt]
 - 7.0 show title of only TV shows released in the united states only
 ```
 filt = (data['type'] == 'TV Show') & (data['country'] == 'United States')
-data[filt]['title']  
-![Capture](https://github.com/user-attachments/assets/5fcad452-882e-4fb2-a03d-ddc3af26de38)
-
+data[filt]['title']
 ```
+![Capture](https://github.com/user-attachments/assets/5fcad452-882e-4fb2-a03d-ddc3af26de38)
 
 - 8.0 use a word cloud to show case the countries where movies are produced
 ```
