@@ -15,7 +15,8 @@
 1.8 find and delete duplicates  
 1.9 find null values   
 2.0 visualize null values using a heat map    
-2.1 Practise data analysis questions
+2.1 Practise data analysis questions  
+2.2 References
 
 ## Introduction
 Data analysis is a process for obtaining raw data, and subsequently converting it into information useful for decision-making by users.   
@@ -158,3 +159,6 @@ plt.show()
 ```
 ![Capture](https://github.com/user-attachments/assets/9c1d319a-c911-4387-8d09-f47c0a825b2d)
 
+# 2.2 References
+- Youtube @Ankit Bansal
+- python documentation
