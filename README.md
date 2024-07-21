@@ -1,4 +1,4 @@
-# Data Analysis With Python - Netflix
+# Data Analysis With Python 
 ![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/d1717927-9853-4055-9eb8-7713e7c288a8)
 
 
@@ -14,7 +14,9 @@
 1.7 inspect column datatypes  
 1.8 find and delete duplicates  
 1.9 find null values   
-2.0 visualize null values using a heat map    
+2.0 visualize null values using a heat map  
+2.1 handling null values with knn imputer
+
 2.1 Practise data analysis questions  
 2.2 References
 
@@ -75,6 +77,10 @@ data.drop_duplicates(inplace=True)
 1.9 to show th sum of all null values in a column
 ```
 data.isnull().sum()
+```
+-- finding the percentage of null values 
+```
+df.isna().sum()/df.shape[0] * 100
 ```
 2.0 Visualize the null values in a heat map
 - Is there any null values in the data set? show with a heatmap
