@@ -1,4 +1,4 @@
-# Data Analysis With Python 
+# Data Analysis With Python Netflix
 ![q](https://github.com/allan-pg/Netflix-data-analysis/assets/62595869/d1717927-9853-4055-9eb8-7713e7c288a8)
 
 
@@ -15,8 +15,6 @@
 1.8 find and delete duplicates  
 1.9 find null values   
 2.0 visualize null values using a heat map  
-2.1 handling null values with knn imputer
-
 2.1 Practise data analysis questions  
 2.2 References
 
