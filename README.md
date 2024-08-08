@@ -164,5 +164,4 @@ plt.show()
 ![Capture](https://github.com/user-attachments/assets/9c1d319a-c911-4387-8d09-f47c0a825b2d)
 
 # 2.2 References
-- Youtube @Ankit Bansal
 - python documentation
